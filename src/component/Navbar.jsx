@@ -14,11 +14,11 @@ export default function
             </div>
             <div>
             <ul className='hidden my-4 mx-5 sm:flex' >
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/home'>Home</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/about'>About</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/work'>Work</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/skill'>Skills</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/contact'>Contact</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/home'>Home</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/about'>About</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/work'>Work</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/skill'>Skills</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/contact'>Contact</Link></li>
             </ul>
             </div>
             {
@@ -31,11 +31,11 @@ export default function
         </div>
         {
           mobileMenu&&   <ul className='sm:hidden absolute h-auto bg-white w-screen  text-black' >
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md '><Link to='/home'>Home</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/about'>About</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/work'>Work</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/skill'>Skills</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/contact'>Contact</Link></li>
+          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md '><Link to='/Portfolio/home'>Home</Link></li>
+          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/about'>About</Link></li>
+          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/work'>Work</Link></li>
+          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/skill'>Skills</Link></li>
+          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/contact'>Contact</Link></li>
       </ul>
         }
         </div>

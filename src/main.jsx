@@ -9,7 +9,7 @@ import Skills from './component/Skills.jsx'
 import Contact from './component/Contact.jsx'
 import {RouterProvider,createBrowserRouter} from "react-router-dom";
 const router =createBrowserRouter([
-  {path:"/",element:<App/>,
+  {path:"/Portfolio/",element:<App/>,
   children:[
    {
     path:'', element:<Home/>
