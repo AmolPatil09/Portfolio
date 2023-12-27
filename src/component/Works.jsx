@@ -12,20 +12,12 @@ export default function Works() {
 
       <h1 className='font-bold mt-1'>Infosys</h1>
       <h1 className='font-bold mt-1'>System Engineer</h1>
-      <h1 className='font-bold mt-1'>May-2023 - Present</h1>
-      <h1 className='font-bold mt-1'>7+ months experince</h1>
+      <h1 className='font-bold mt-1'>Dec-2022 - Present</h1>
+      <h1 className='font-bold mt-1'>1.1 + experince</h1>
       
 
       </div>
-      <div className='border-2 min-h-32 sm:w-[80%] min-w-36 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
-
-      <h1 className='font-bold mt-1'>Infosys</h1>
-      <h1 className='font-bold mt-1'>System Engineer Trainee</h1>
-      <h1 className='font-bold mt-1'>Dec-2022 - May-2023</h1>
-      <h1 className='font-bold mt-1'>6 months experince</h1>
-      
-
-</div>
+     
      </div>
     </div>
     </div>
