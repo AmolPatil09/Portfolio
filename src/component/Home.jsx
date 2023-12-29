@@ -1,7 +1,15 @@
 import React from 'react'
 import img from '../assets/Amol_Photo_-_Copy-removebg-preview.png'
+import { saveAs } from 'file-saver';
 
 export default function Home() {
+
+  const downloadResume=()=>{
+    console.log("Hi");
+   const pdfUrl="http://localhost:5173/Portfolio/MyResumenew.pdf";
+   saveAs(pdfUrl, 'Amol_Patil_Resume.pdf')
+   
+  }
   return (
     <div className='h-full w-full' >
     <div className='flex mt-20 flex-col-reverse sm:flex-row' >
@@ -11,7 +19,7 @@ export default function Home() {
             <h1 className='text-xl sm:text-4xl'>I'am Amol</h1>
             <h1 className='text-blue-400 sm:text-4xl'>Fullstack Developer</h1>
             <h1 className='Sm:text-xl font-semibold'>(MERN Fullstack / Java Fullstack)</h1>
-            <button className='button sm:my-2 sm:text-xl text-md font-semibold p-2 rounded-md bg-gray-950 hover:bg-blue-400'>Download CV</button>
+            <button className='button sm:my-2 sm:text-xl text-md font-semibold p-2 rounded-md bg-gray-950 hover:bg-blue-400' onClick={()=>{downloadResume()}}>Download CV</button>
         </div>
         </div>
         <div className='text-center w-1/2 m-auto '>
