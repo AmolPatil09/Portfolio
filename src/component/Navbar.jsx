@@ -2,10 +2,16 @@ import React, { useState } from 'react'
 import { IoMenu } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import { RxCross2 } from "react-icons/rx";
+import { FaHome } from "react-icons/fa";
+import { FcAbout } from "react-icons/fc";
+import { MdOutlineWorkHistory } from "react-icons/md";
+import { GiSkills } from "react-icons/gi";
+import { MdContacts } from "react-icons/md";
+
 
 export default function
     () {
-        const [mobileMenu,setMobileMenu]=useState(false);
+        
     return (
         <div>
         <div className='h-16 w-full text-white bg-black flex justify-between text-center'>
@@ -14,28 +20,26 @@ export default function
             </div>
             <div>
             <ul className='hidden my-4 mx-5 sm:flex' >
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/home'>Home</Link></li>
+                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/'>Home</Link></li>
                 <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/about'>About</Link></li>
                 <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/work'>Work</Link></li>
                 <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/skill'>Skills</Link></li>
                 <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/contact'>Contact</Link></li>
             </ul>
             </div>
-            {
-                mobileMenu?<RxCross2 className='my-3  mx-5 h-10 w-10 min-w-6 sm:hidden' onClick={()=>{setMobileMenu(false)}}/>:<IoMenu className='my-3  mx-5 h-10 w-10 min-w-6 sm:hidden' onClick={()=>{setMobileMenu(true)}}/>
-            }
+            
             
            
             
 
         </div>
         {
-          mobileMenu&&   <ul className='sm:hidden absolute h-auto bg-white w-screen  text-black' >
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md '><Link to='/Portfolio/home'>Home</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/about'>About</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/work'>Work</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/skill'>Skills</Link></li>
-          <li className='mx-3 text-lg  hover:bg-yellow-400 rounded-md block'><Link to='/Portfolio/contact'>Contact</Link></li>
+          <ul className='sm:hidden flex fixed bottom-0  h-12 bg-black w-screen justify-center text-black' >
+          <li className='m-auto text-base '><Link to='/Portfolio/'><FaHome className='text-white w-6 h-8 '/></Link></li>
+          <li className='m-auto text-base  '><Link to='/Portfolio/about'><FcAbout className='text-white w-6 h-8'/></Link></li>
+          <li className='m-auto text-base  '><Link to='/Portfolio/work'><MdOutlineWorkHistory className='text-white w-6 h-8'/></Link></li>
+          <li className='m-auto text-base  '><Link to='/Portfolio/skill'><GiSkills className='text-white w-6 h-8'/></Link></li>
+          <li className='m-auto text-base  '><Link to='/Portfolio/contact'><MdContacts className='text-white w-6 h-8'/></Link></li>
       </ul>
         }
         </div>

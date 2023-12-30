@@ -7,7 +7,7 @@ export default function Contact() {
       <div className='min-h-20 w-full'>
 
         <div className='md:border-2 min-h-64 md:border-amber-100 m-5  justify-center mt-8 sm:mx-[200px] rounded-md'>
-          <h1 className='mt-6 sm:text-4xl sm:font-bold'>Contact</h1>
+          <h1 className='mt-6 sm:text-4xl font-bold'>Contact</h1>
           <div className='m-5'>
             <form >
         <div className='sm:flex'>

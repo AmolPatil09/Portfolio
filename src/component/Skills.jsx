@@ -18,7 +18,7 @@ export default function Skills() {
       
         <div className='min-h-20 w-full'>
          <div className='md:border-2 min-h-64 md:border-amber-100 m-5   mt-8 sm:mx-[200px] rounded-md'>
-         <h1 className=' m-6 sm:text-4xl sm:font-bold '>Skills</h1>
+         <h1 className=' m-6 sm:text-4xl font-bold '>Skills</h1>
          <div className='flex flex-wrap sm:flex-row flex-col justify-center'>
           <div className='border-2 min-h-48 sm:w-40 min-w-36 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
           <FaHtml5 className='m-auto w-full mt-8 h-[60%] text-red-600'/>
