@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-        <div className='bg-black min-h-screen h-auto'>
+        <div className='bg-black min-h-screen h-auto '>
         <Navbar/>
         <All/>
         <Footer/>
