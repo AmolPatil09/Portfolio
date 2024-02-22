@@ -8,7 +8,7 @@ export default function Home() {
   const downloadResume=()=>{
   console.log("Hi");
   const pdfUrl="https://amolpatil09.github.io/Portfolio/MyResumenew.pdf";
-  saveAs(pdfUrl,'Amol_Patil_Resume.pdf')
+  saveAs(pdfUrl,'Amol_Patil_Resume1.pdf')
    
   }
   return (
@@ -19,8 +19,8 @@ export default function Home() {
             <h1>Hi,</h1>
             <h1 className='text-xl sm:text-4xl'>I'am Amol</h1>
             <h1 className='text-blue-400 sm:text-4xl'>Fullstack Developer</h1>
-            <h1 className='Sm:text-xl font-semibold'>(MERN Fullstack / Java Fullstack)</h1>
-            <button className='button sm:my-2 sm:text-xl text-md font-semibold p-2 rounded-md bg-gray-950 hover:bg-blue-400' onClick={()=>{downloadResume()}}>Download CV</button>
+            <h1 className='Sm:text-xl font-semibold'>(MERN Stack / Java Fullstack)</h1>
+            <button className='button sm:my-2 sm:text-xl text-md font-semibold p-2 rounded-md bg-gray-500 hover:bg-blue-400' onClick={()=>{downloadResume()}}>Download CV</button>
         </div>
         </div>
         <div className='text-center w-1/2 m-auto '>
