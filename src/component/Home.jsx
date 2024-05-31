@@ -18,13 +18,13 @@ export default function Home() {
         <div className='sm:text-3xl font-extrabold my-10 sm:text-start mx-auto sm:mx-[100px]'>
             <h1>Hi,</h1>
             <h1 className='text-xl sm:text-4xl'>I'am Amol</h1>
-            <h1 className='text-blue-400 sm:text-4xl'>Fullstack Developer</h1>
-            <h1 className='Sm:text-xl font-semibold'>(MERN Stack / Java Fullstack)</h1>
+            <h1 className='text-blue-400 sm:text-4xl'>React Js Developer</h1>
+            <h1 className='Sm:text-xl font-semibold'>(MERN Stack )</h1>
             <button className='button sm:my-2 sm:text-xl text-md font-semibold p-2 rounded-md bg-gray-500 hover:bg-blue-400' onClick={()=>{downloadResume()}}>Download CV</button>
         </div>
         </div>
         <div className='text-center w-1/2 m-auto '>
-        <img src={img} className='rounded-full mx-auto' />
+        <img src={img} className='rounded-full  mx-auto ' />
         </div>
         
     </div>

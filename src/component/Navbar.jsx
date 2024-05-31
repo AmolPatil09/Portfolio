@@ -20,11 +20,11 @@ export default function
             </div>
             <div>
             <ul className='hidden my-4 mx-5 sm:flex' >
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/'>Home</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/about'>About</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/work'>Work</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/skill'>Skills</Link></li>
-                <li className='mx-3 text-lg px-3 hover:bg-yellow-400 rounded-md'><Link to='/Portfolio/contact'>Contact</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/'>Home</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/about'>About</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/work'>Work</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/skill'>Skills</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/contact'>Contact</Link></li>
             </ul>
             </div>
             

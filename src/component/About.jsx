@@ -3,19 +3,21 @@ import img from '../assets/Amol_Photo_-_Copy-removebg-preview.png'
 export default function About() {
   return (
     <div className='h-full w-full' >
-    <div className='flex mt-20 flex-col lg:flex-row justify-center' >
+    <div className='flex mt-10 flex-col lg:flex-row justify-center' >
     <div className='text-center w-1/2   m-auto '>
         <img src={img} className='rounded-full mx-auto' />
         </div>
         <div className='text-center w-full lg:w-full  text-white '>
         <div className='sm:text-3xl font-extrabold my-10 sm:text-start sm:m-10 m-3'>
-            <div className='sm:border-2 min-h-64 sm:w-2/3 min-w-[200px]   border-amber-100 m-auto  mt-8  rounded-md text-center'>
-            <h1 className=' m-6 sm:text-4xl sm:font-bold '>About</h1>
-            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>"I am a passionate front-end developer with expertise 
-            in React and Angular, dedicated to creating engaging and user-friendly web experiences. Equipped with strong skills in back-end development using 
-            Spring Boot and Node.js, I thrive in full-stack development environments. With a keen eye for design and a commitment to clean, efficient code, 
-            I am driven to deliver high-quality solutions that exceed client expectations. Eager to leverage my skills and experience to contribute to innovative
-             projects and collaborate with like-minded professionals in the tech industry."
+            <div className=' min-h-64 sm:w-2/3 min-w-[200px]   border-amber-100 m-auto  mt-8  rounded-md text-center'>
+            <h1 className=' m-6 sm:text-4xl sm:font-bold '>Profile Summary</h1>
+            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>"A dedicated and innovative Front-End Developer with a primary focus on React.js, complemented by a foundational understanding of Node.js, Spring Boot, and Angular. With a strong passion for developing dynamic and responsive web applications, I bring a unique blend of technical expertise and creativity to every project."
+            </p>
+            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>React.js: Extensive experience in building user-friendly, component-based web applications using React.js. Proficient in leveraging hooks, state management libraries (like Redux), and React Router for seamless navigation and state handling.
+
+            </p>
+            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>
+Node.js: Basic knowledge of building scalable server-side applications with Node.js. Familiar with Express.js for creating RESTful APIs and handling server-side logic.
             </p>
             </div>
         </div>

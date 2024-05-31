@@ -4,7 +4,7 @@ export default function Contact() {
    
  
   return (
-    <div className='flex flex-col w-full justify-center'>
+    <div className='flex flex-col sm:m-20 w-full justify-center'>
 
       <div className='min-h-20 w-full'>
 
