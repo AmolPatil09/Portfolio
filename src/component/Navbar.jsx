@@ -7,6 +7,7 @@ import { FcAbout } from "react-icons/fc";
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 import { MdContacts } from "react-icons/md";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 
 export default function
@@ -24,6 +25,7 @@ export default function
                 <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/about'>About</Link></li>
                 <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/work'>Work</Link></li>
                 <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/skill'>Skills</Link></li>
+                <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/projects'>Projects</Link></li>
                 <li className='mx-3 text-lg px-3 hover:border-y-4 border-indigo-500  rounded-md'><Link to='/Portfolio/contact'>Contact</Link></li>
             </ul>
             </div>
@@ -39,6 +41,8 @@ export default function
           <li className='m-auto text-base  '><Link to='/Portfolio/about'><FcAbout className='text-white w-6 h-8'/></Link></li>
           <li className='m-auto text-base  '><Link to='/Portfolio/work'><MdOutlineWorkHistory className='text-white w-6 h-8'/></Link></li>
           <li className='m-auto text-base  '><Link to='/Portfolio/skill'><GiSkills className='text-white w-6 h-8'/></Link></li>
+          <li className='m-auto text-base  '><Link to='/Portfolio/projects'><AiOutlineFundProjectionScreen className='text-white w-6 h-8'/></Link></li>
+
           <li className='m-auto text-base  '><Link to='/Portfolio/contact'><MdContacts className='text-white w-6 h-8'/></Link></li>
       </ul>
         }
