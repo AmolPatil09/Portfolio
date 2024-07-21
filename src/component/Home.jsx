@@ -7,7 +7,7 @@ export default function Home() {
 
   const downloadResume=()=>{
   console.log("Hi");
-  const pdfUrl="https://amolpatil09.github.io/Portfolio/MyResumenew.pdf";
+  const pdfUrl="https://amolpatil09.github.io/Portfolio/Resume.pdf";
   saveAs(pdfUrl,'Amol_Patil_Resume1.pdf')
    
   }
