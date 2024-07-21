@@ -11,13 +11,26 @@ export default function About() {
         <div className='sm:text-3xl font-extrabold my-10 sm:text-start sm:m-10 m-3'>
             <div className=' min-h-64 sm:w-2/3 min-w-[200px]   border-amber-100 m-auto  mt-8  rounded-md text-center'>
             <h1 className=' m-6 sm:text-4xl sm:font-bold '>Profile Summary</h1>
-            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>"A dedicated and innovative Front-End Developer with a primary focus on React.js, complemented by a foundational understanding of Node.js, Spring Boot, and Angular. With a strong passion for developing dynamic and responsive web applications, I bring a unique blend of technical expertise and creativity to every project."
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Having 1.7+ Years of Professional IT experience in React, React Native and JavaScript.
             </p>
-            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>React.js: Extensive experience in building user-friendly, component-based web applications using React.js. Proficient in leveraging hooks, state management libraries (like Redux), and React Router for seamless navigation and state handling.
-
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Good Extensive experience in Developing/Handling highly interactive web-based applications specially using React. 
             </p>
-            <p className='text-sm sm:text-xl font-thin my-2 mx-2 sm:p-5 p-4 text-justify text-pretty'>
-Node.js: Basic knowledge of building scalable server-side applications with Node.js. Familiar with Express.js for creating RESTful APIs and handling server-side logic.
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Familiar with the front-end technologies such as HTML, CSS, Bootstrap, JavaScript, Axios. Familiarity with MongoDB database & MySQL database. 
+            </p>
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Proficient understanding of code versioning tools, such as Git. Experience with Git-Hub. 
+            </p>
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Ability to handle multiple tasks and work as in a team Member.
+            </p>
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Excellent analytical, problem solving and programming skills. Committed, goal oriented, learn new things & technologies. 
+            </p>
+            <p className='text-sm sm:text-xl font-thin  mx-2 sm:p-5 p-4 text-justify text-pretty'>
+            •	Possess good problem solving & interpersonal skills, having capability to work alone.
             </p>
             </div>
         </div>

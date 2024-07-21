@@ -8,7 +8,7 @@ export default function Projects() {
     <div>
      <h1 className='mt-5 text-2xl'>Projects</h1>
      <div className='flex flex-wrap sm:flex-row flex-col justify-center'>
-          <div className='border-2 min-h-48 sm:w-96 min-w-36 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
+          <div className='border-2 min-h-48 sm:w-96 min-w-56 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
           <h1 className='font-bold my-2'>eshop</h1>
           <img src={img} className=' m-[5%] h-80 w-[90%]' />
           <div className='flex justify-center'>
@@ -21,7 +21,7 @@ export default function Projects() {
     </div>
       <div>
       <div className='flex flex-wrap sm:flex-row flex-col justify-center'>
-           <div className='border-2 min-h-48 sm:w-96 min-w-36 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
+           <div className='border-2 min-h-48 sm:w-96 min-w-56 w-40 border-amber-100  mx-auto  m-6 sm:mx-[50px] rounded-md'>
            <h1 className='font-bold my-2'>CareHealth</h1>
            <img src={hospital} className=' m-[5%] h-80 w-[90%]' />
            <div className='flex justify-center'>
